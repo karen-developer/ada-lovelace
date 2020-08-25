@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css?family=Sacramento');
+
+body {
+  background: #d8cbbb;
+  color: #5e6073;
+  font-family: "Georgia",serif;
+}
+
+a {
+  color: #776d8a;
+}
+
+body, #img-div, #img-caption, #quote-div, #tribute-info {
+  display: flex;
+  align-items: center;
+  flex-flow: column nowrap;
+  justify-content: center; 
+}
+
+hr {
+  width: 40%;
+  margin: 1.5rem;
+}
+
+#main {
+  background: #fafafa;
+  box-shadow:0 0 50px 0 rgba(30,20,80,.08),0 0 50px 0 rgba(30,20,80,.08); 
+  width: 75%;
+  hight: 100%;
+  margin-top: 5rem;
+  align-items: stretch;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  justify-items: stretch;
+}
+
+#img-div {
+  background: #776d8a;
+  color: white;
+} 
+
+#img-div img {
+  max-width: 100%;
+  border: 1px solid #ddd;
+  padding: .8rem;
+  margin:  2rem 10rem;
+}
+
+#img-caption  {
+  text-align: center;
+}
+
+#img-caption p {
+  font-size: 1.1rem;
+  margin: .5rem; 
+}
+
+#title {
+  font: 3rem Sacramento;
+  margin-bottom: -1rem
+}
+
+blockquote {
+  margin: 2rem .3rem 0; 
+}
+
+#tribute-info {
+  padding: 1rem 5rem;
+}
+
+#tribute-info hr {
+  margin: 1.3rem;
+}
+
+#copyright {
+  padding: 2.5rem;
+  font-size: .8rem;
+}
+
+
+@media only screen and (max-width: 1200px) {
+  
+  #main {
+   grid-template-columns: 1fr;
+    grid-template-rows: auto 2fr;
+  }  
+  
+   #img-div {
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding: 2rem;
+  }
+  
+   #img-div img {
+    max-width: 100%;
+    height: 16rem;
+    margin: 1rem;
+    width: 12rem;
+  }
+  
+  #img-caption {
+    padding: 2rem;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  
+  #img-div img {
+    max-width: 100%;
+    height: 14rem;
+    margin: 1rem;
+    width: 10rem;
+  }
+  
+  #title {
+    font: 2.2rem Sacramento;
+    margin: -1.5rem -1rem .5rem;
+  }
+
+  #img-caption {
+    margin-bottom: -2.3rem;
+  }
+  
+  #img-caption p {
+    font-size: .65rem;
+  }
+  
+  #tribute-info {
+  padding: 0 2.5rem;
+}
+  
+  #tribute-info h3 {
+  font-size: 1rem;
+}
+  
+  #tribute-info p li {
+  font-size: .9rem;
+}
+  
+  #tribute-info h4 {
+  font-size: .8rem;
+}
+  
+}
