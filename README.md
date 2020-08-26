@@ -1,6 +1,6 @@
 # Ada Lovelace Tribute Page
 
-Responsive Web Design Projects 
+FreeCodeCamp Responsive Web Design Project
 
 ![Ada Lovelace Tribute Page](https://github.com/karen-developer/ada-lovelace/blob/master/Ada%20Lovelace%20Tribute%20Page.png?raw=true)
 
