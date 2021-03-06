@@ -2,7 +2,7 @@
 
 FreeCodeCamp Responsive Web Design Project
 
-![Ada Lovelace Tribute Page](https://github.com/karen-developer/ada-lovelace/blob/master/Ada%20Lovelace%20Tribute%20Page.jpg?raw=true)
+![Ada Lovelace Tribute Page](https://github.com/karen-developer/ada-lovelace/blob/master/ada-lovelace.jpg?raw=true)
 
 User Story #1: My tribute page should have an element with a corresponding id="main", which contains all other elements.
 
